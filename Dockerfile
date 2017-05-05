@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-ce:9.0.5-ce.0
+FROM gitlab/gitlab-ce:9.1.3-ce.0
 # Default plus aes256-cbc
 RUN echo 'Ciphers chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes256-cbc' >> /assets/sshd_config
 # Default plus diffie-hellman-group-exchange-sha1
